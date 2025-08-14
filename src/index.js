@@ -1,3 +1,4 @@
+alert("HAY GURL/Ahmed!! Luv u xxx");
 function refreshWeather(response) {
   let temperatureElement = document.querySelector("#temperature-value");
   let temperature = response.data.temperature.current;
