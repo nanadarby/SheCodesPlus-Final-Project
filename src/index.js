@@ -99,6 +99,7 @@ searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Lisbon");
 getForecast("Lisbon");
+
 function changeTheme() {
   let body = document.querySelector("body");
 
