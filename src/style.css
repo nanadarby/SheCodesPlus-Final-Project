@@ -2,6 +2,7 @@ body {
   background: linear-gradient(90deg, #8ef6e4, #9896f1, #d59bf6, #edb1f1);
   font-family: "Roboto", sans-serif;
 }
+
 main {
   padding: 30px 0;
 }
@@ -114,31 +115,32 @@ a {
 .search-form-button:hover {
   opacity: 80%;
 }
+.button-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+}
 .theme-button {
-  position: absolute;
   display: block;
-  background-color: transparent;
-  padding: 10px;
-  font-family: "Croissant One," serif;
-  margin: 0 auto;
-  top: 30px;
+  background-color: #6759e5;
+  padding: 9px 28px;
+  opacity: 90%;
+  font-family: "Croissant One", serif;
+  margin: 20px auto;
+  top: 60px;
   right: 40px;
   border: none;
-  font-size: 400%;
+  font-size: 110%;
   border-radius: 6px;
   color: white;
   cursor: pointer;
+  font-weight: 450;
 }
 .theme-button:hover {
   opacity: 80%;
 }
+
 body.dark {
   background: linear-gradient(90deg, #0c056d, #590d82, #b61aae, #f25d9c);
-}
-.button-info {
-  top: 120px;
-  right: 40px;
-  position: absolute;
-  font-weight: 450;
-  font-style: italic;
 }

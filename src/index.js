@@ -105,10 +105,10 @@ function changeTheme() {
 
   if (body.classList.contains("dark")) {
     body.classList.remove("dark");
-    themeButton.textContent = "🌙";
+    themeButton.textContent = "Change Theme 🌙";
   } else {
     body.classList.add("dark");
-    themeButton.textContent = "🌞";
+    themeButton.textContent = "Change Theme ☀️";
   }
 }
 let themeButton = document.querySelector(".theme-button");
