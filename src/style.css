@@ -33,7 +33,6 @@ a {
 .weather-app-data {
   display: flex;
   justify-content: space-between;
-  position: fixed;
 }
 .weather-app-city {
   margin: 0;
